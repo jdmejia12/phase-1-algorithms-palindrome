@@ -1,9 +1,24 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+  let flipWord = word.split('').reverse().join('');
+  if(word  === flipWord) {return true}else
+  {return false}
 }
 
 /* 
-  Add your pseudocode here
+    */
+//   accept input String
+//   check if String.length is odd or even (String.length % 2 does or does not = 0){
+//     if (it is odd) {
+//           check if String[0] = String[String.length - 1]
+//         somehow ignoring the middle letter} 
+//     }
+
+//         if (it is even) {
+//             check if String[0] = String[String.length - 1]
+//           possible set it as 2 different arrays, split at the middle with second half reversed. then you can do arr1===arr2
+//         } 
+//     }
+  /*
 */
 
 /*
